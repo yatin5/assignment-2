@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package assign2.pkg2014f;
 
 import java.io.ByteArrayInputStream;
@@ -14,8 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- *
- * @author c0587637
+ * @author Len Payne
  */
 public class Assign22014FTest {
 
