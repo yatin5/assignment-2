@@ -1,3 +1,8 @@
+/* The following exercises are adapted from:
+ * Gaddis, T. (2013). Starting Out with Java: From Control Structures through 
+ * Objects. (5th ed.). Upper Saddle River, NJ: Pearson Education.
+ * ISBN: 978-0-13-285583-9
+ */
 package assign2.pkg2014f;
 
 import java.util.Scanner;
@@ -56,6 +61,8 @@ public class Assign22014F {
      *   *****
      *    ***
      *     *
+     *
+     * - Gaddis pg. 106
      */
     public static void doExercise4() {
         // TODO: Complete Exercise #4 Below
@@ -70,6 +77,8 @@ public class Assign22014F {
      * of miles driven and the gallons of gas used. It 
      * should calculate the car's miles-per-gallon and 
      * display the result on the screen.
+     *
+     * - Gaddis pg. 106-7
      */
     public static void doExercise9() {
         // TODO: Complete Exercise #9 Below
@@ -80,6 +89,8 @@ public class Assign22014F {
      * Write a program that asks the user to enter three 
      * test scores. The program should display each test 
      * score, as well as the average of the scores.
+     *
+     * - Gaddis pg. 107
      */
     public static void doExercise10() {
         // TODO: Complete Exercise #10 Below
@@ -95,6 +106,8 @@ public class Assign22014F {
      * - The name of the city in all uppercase letters
      * - The name of the city in all lowercase letters
      * - The first character in the name of the city
+     *
+     * - Gaddis pg. 107
      */
     public static void doExercise12() {
         // TODO: Complete Exercise #12 Below
@@ -120,6 +133,8 @@ public class Assign22014F {
      * NAME went to college at COLLEGE. NAME graduated and went to work as a
      * PROFESSION. Then, NAME adopted a(n) ANIMAL named PETNAME. They both
      * lived happily ever after.
+     *
+     * - Gaddis pg. 108
      */
     public static void doExercise16() {
         // TODO: Complete Exercise #16 Below
