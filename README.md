@@ -1,6 +1,6 @@
 # CPD-3314 Assignment #2
 
-This repo contains starting files and automated unit tests for a selection of exercises from the back of Chapter 2 in your textbook.
+This repo contains starting files and automated unit tests for a selection of exercises from the back of Chapter 2 of the [textbook for this course](http://www.pearsonhighered.com/educator/product/Starting-Out-with-Java-From-Control-Structures-through-Objects-5E/9780132855839.page).
 
 To retrieve these files and work with them:
 
