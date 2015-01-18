@@ -8,7 +8,7 @@ package assign2.pkg2014f;
 import java.util.Scanner;
 
 /**
- * @author <ENTER YOUR NAME HERE>
+ * @author Yatin
  */
 public class Assign22014F {
 
@@ -66,6 +66,13 @@ public class Assign22014F {
      */
     public static void doExercise4() {
         // TODO: Complete Exercise #4 Below
+        System.out.println("   * ");
+        System.out.println("  *** ");
+        System.out.println(" ***** ");
+        System.out.println("*******");
+        System.out.println(" ***** ");
+        System.out.println("  *** ");
+        System.out.println("   * ");
 
     }
 
@@ -83,6 +90,16 @@ public class Assign22014F {
     public static void doExercise9() {
         // TODO: Complete Exercise #9 Below
 
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the no. of miles driven : ");
+        double Milesdriven = in.nextDouble();
+
+        System.out.println("Enter the gallons of gas used : ");
+        double Gallonsofgasused = in.nextDouble();
+
+        double MPG = (Milesdriven / Gallonsofgasused);
+        System.out.println("Car's miles-per-gallon is :" + MPG);
     }
 
     /* Exercise #10
@@ -94,9 +111,24 @@ public class Assign22014F {
      */
     public static void doExercise10() {
         // TODO: Complete Exercise #10 Below
+        Scanner in = new Scanner(System.in);
 
+        System.out.println("Enter value of A :");
+        float A = in.nextFloat();
+
+        System.out.println("Enter value B :");
+        float B = in.nextFloat();
+
+        System.out.println("Enter value of C :");
+        float C = in.nextFloat();
+
+        float avg = (A + B + C) / 3;
+
+        System.out.println(" TestA = " + A);
+        System.out.println(" TestB = " + B);
+        System.out.println(" TestC = " + C);
+        System.out.println("Average is : " + avg);
     }
-
     /* Exercise #12
      * Write a program that asks the user to enter the name 
      * of his or her favourite city. Use a String variable 
@@ -109,8 +141,29 @@ public class Assign22014F {
      *
      * - Gaddis pg. 107
      */
+
     public static void doExercise12() {
         // TODO: Complete Exercise #12 Below
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter name of favourate city :");
+        String city = new String();
+        city = in.next();
+        int a = city.length();
+
+        String b = new String();
+        b = city.toUpperCase();
+
+        String c = new String();
+        c = city.toLowerCase();
+
+        String d = new String();
+        d = String.valueOf(city.charAt(0));
+
+        System.out.println("The length of city name is :" + a);
+        System.out.println("City :" + b);
+        System.out.println("City :" + c);
+        System.out.println("Frist letter of city :" + d);
 
     }
 
@@ -139,5 +192,32 @@ public class Assign22014F {
     public static void doExercise16() {
         // TODO: Complete Exercise #16 Below
 
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Enter your name");
+        String name = keyboard.nextLine();
+
+        System.out.println("Enter your city");
+        String city = keyboard.nextLine();
+        
+        System.out.println("Enter your age");
+        String age=keyboard.nextLine();
+        
+        System.out.println("Enter your college name");
+        String college = keyboard.nextLine();
+
+        System.out.println("Enter your proffesion");
+        String proffesion = keyboard.nextLine();
+
+        System.out.println("Enter the pet type");
+        String animal_type = keyboard.nextLine();
+
+        System.out.println("Enter the pet name");
+        String pet_name = keyboard.nextLine();
+
+        System.out.println("There once was a person named " + name + " who lived in " + city + ". At the age of "+age+","
+                + " " + name + " went to college at " + college+". " + name + " graduated and went to work as a"
+                + " " + proffesion + ". Then, " + name + " adopted a(n) " + animal_type + " named " + pet_name + ". They both"
+                + " lived happily ever after.");
     }
 }
